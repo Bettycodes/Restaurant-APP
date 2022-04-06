@@ -173,9 +173,11 @@
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
+
   }
   
   .kitchens .box-container .box{
+    background-color: var(--brown);
     flex:1 1 30rem;
     position: relative;
     overflow: hidden;
@@ -191,6 +193,7 @@
     background-size: cover;
     position: absolute;
     top:-100%; left:0;
+    
   }
   
   .kitchens .box-container .box .content{
@@ -201,6 +204,7 @@
   
   .kitchens .box-container .box .content img{
     margin:1.5rem 0;
+    background-color: var(--brown);
   }
   
   .kitchens .box-container .box .content h3{
