@@ -104,7 +104,8 @@
     padding-right: .5rem;
     color:var(--black);
   }
-  
+
+
   header .navbar a{
     font-size: 2rem;
     margin-left: 2rem;
@@ -114,6 +115,20 @@
   header .navbar a:hover{
     color:var(--black);
   }
+
+
+  header .cart-logo{
+    font-size: 2.5rem;
+    color:var(--beige);
+    justify-content: flex-end;
+  }
+
+  header .cart-logo:hover{
+    color:var(--black);
+  }
+  
+
+  
   
   #menu-bar{
     font-size: 3rem;
